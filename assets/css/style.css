@@ -1,0 +1,55 @@
+:root {
+    --primary-color: #30afc4;
+    --complementary-color: #c45a30;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    border: 3px solid #30afc4; /* Replace with the desired border color */
+    margin: 20px; /* Adjust the margin to create space between the border and the edges of the browser window */
+  }
+  
+  header {
+    margin-bottom: 2rem;
+  }
+  
+  #hero {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 4rem 0;
+  }
+  
+  h1, h2 {
+    margin-bottom: 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: var(--complementary-color);
+  }
+  
+  .navbar-brand {
+    color: #fff;
+  }
+  
+  .nav-link {
+    color: #fff;
+  }
+  
+  .nav-link:hover {
+    color: #ddd;
+  }
+
+
+
+  
