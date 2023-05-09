@@ -5,6 +5,7 @@
   
   body {
     font-family: Arial, sans-serif;
+    font-weight: 100;
     line-height: 1.6;
     border: 3px solid #30afc4; /* Replace with the desired border color */
     margin: 20px; /* Adjust the margin to create space between the border and the edges of the browser window */
@@ -29,7 +30,6 @@
   section {
     margin-bottom: 2rem;
     margin: 0 auto;
-    padding: 4rem 0;
   }
   
   form {
@@ -40,6 +40,7 @@
   /* Navbar */
   .navbar {
     background-color: var(--complementary-color);
+    margin: -20rem;
   }
   
   .navbar-brand {
