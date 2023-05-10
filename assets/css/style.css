@@ -5,7 +5,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    font-weight: 100;
+    font-weight: lighter;
     line-height: 1.6;
     border: 3px solid #30afc4; /* Replace with the desired border color */
     margin: 20px; /* Adjust the margin to create space between the border and the edges of the browser window */
@@ -18,13 +18,13 @@
   #hero {
     background-color: var(--primary-color);
     color: #fff;
-    padding: 4rem 0;
+    padding: 2rem 0;
   }
   
   h1, h2 {
     margin-bottom: 1rem;
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 2rem 0;
   }
   
   section {
@@ -40,7 +40,6 @@
   /* Navbar */
   .navbar {
     background-color: var(--complementary-color);
-    margin: -20rem;
   }
   
   .navbar-brand {
