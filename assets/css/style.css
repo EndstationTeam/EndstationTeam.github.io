@@ -34,7 +34,7 @@
   
   form {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 0;
   }
   
   /* Navbar */
@@ -59,6 +59,58 @@
     margin-left: 1rem;
   }
 
+  /* About Section Founder Styles */
+  #team .img-fluid {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  #team h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+
+  #team p {
+    font-size: 1rem;
+    color: #666;
+  }
 
 
-  
+  /* Product Styles */
+  .product-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .product-img {
+    border-radius: 5px;  /* Soft rounded corners */
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);  /* Slight shadow for depth */
+  }
+
+  .vertical-image {
+    max-height: 400px; /* Adjust this value based on your design needs */
+    width: auto; /* Ensure the width adjusts automatically */
+    display: block; /* Makes sure there's no unwanted whitespace around the image */
+    margin: 0 auto; /* Centers the image in its container */
+  }
+
+  #products h3 {
+    margin-top: 20px;
+    font-size: 1.6rem;
+  }
+
+  #products p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+
+  #products .col-lg-6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .content {
+    padding-left: 40px; /* Adjust this value based on your preference */
+  }
