@@ -7,7 +7,7 @@
     font-family: Arial, sans-serif;
     font-weight: lighter;
     line-height: 1.6;
-    border: 3px solid #30afc4; /* Replace with the desired border color */
+    /* border: 3px solid #30afc4; Replace with the desired border color */
     margin: 20px; /* Adjust the margin to create space between the border and the edges of the browser window */
   }
   
@@ -52,6 +52,11 @@
   
   .nav-link:hover {
     color: #ddd;
+  }
+
+  .logo {
+    max-width: 100px;
+    margin-left: 1rem;
   }
 
 
